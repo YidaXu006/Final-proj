@@ -1,0 +1,90 @@
+﻿# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Translations
+*.mo
+*.pot
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment files
+.env
+.env.*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.ipynb
+
+# pyenv
+.python-version
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor temp files
+*~
+*.swp
+*.swo
+
+# Type check / caches
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Misc
+coverage_html_report/
+celerybeat-schedule
+celerybeat.pid
+
+# Secrets and keys
+*.pem
+*.key
+*.crt
+
+# Local project settings
+.local_settings.py
+
+# Add project-specific ignores below
