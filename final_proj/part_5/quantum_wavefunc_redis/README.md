@@ -46,10 +46,10 @@ redis-server.exe redis.windows.conf
 提供 3 种运行方式，项目根目录执行即可，按需选择：
 ```bash
 # 方式 1（推荐）：模块方式运行
-python -m wave_function
+python -m quantum_wavefunc_redis
 
 # 方式 2：直接运行文件（调试/开发用）
-python wave_function/__main__.py
+python quantum_wavefunc_redis/__main__.py
 
 # 方式 3：全局命令运行（项目安装后可用）
 quantum-wavefunc

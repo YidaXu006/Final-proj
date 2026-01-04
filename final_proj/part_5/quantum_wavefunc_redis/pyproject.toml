@@ -15,4 +15,4 @@ license = { file = "LICENSE" }
 dependencies = ["redis>=5.0.0","numpy>=1.24.0"]
 
 [project.scripts]
-quantum-wavefunc = "wave_function.__main__:main"
+quantum-wavefunc = "quantum_wavefunc_redis.__main__:main"
