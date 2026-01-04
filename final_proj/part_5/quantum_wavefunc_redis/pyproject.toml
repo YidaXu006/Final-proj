@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-wavefunc-redis"
+version = "0.1.0"
+authors = [{ name = "YidaXu006", email = "yidaxu2006@gmail.com" }]
+description = "Quantum physics wave function data storage and management based on Redis Hash structure"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["quantum-physics", "wave-function", "redis", "hash-storage", "numpy"]
+license = { file = "LICENSE" }
+
+dependencies = ["redis>=5.0.0","numpy>=1.24.0"]
+
+[project.scripts]
+quantum-wavefunc = "wave_function.__main__:main"
